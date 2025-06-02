@@ -28,10 +28,15 @@ Peformance on graph instances:
 - **Average Time**: Total time for 500 runs of the repetition counting experiment
 
 
+## Usage
+To run the implementation:
+
+```bash
+cargo run --release
+```
+Cargo will automatically download and compile the required dependencies:
+- `rand` - for random number generation
+- `union_find` - for efficient union-find data structure
 
 ## Reference
-
 Karger, David (1993). "Global Min-cuts in RNC and Other Ramifications of a Simple Mincut Algorithm". *Proceedings of the 4th Annual ACM-SIAM Symposium on Discrete Algorithms*.
-
-## Usage
-run cargo run --release
